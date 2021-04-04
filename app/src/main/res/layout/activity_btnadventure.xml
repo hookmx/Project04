@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnadventure"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    tools:context=".btnadventure">
+
+    <TextView
+        android:id="@+id/Adtext"
+        android:layout_width="174dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:text="   Adventure"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/backad"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/Ad3"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="37dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ad1"
+        app:srcCompat="@drawable/adv" />
+
+    <ImageView
+        android:id="@+id/Ad5"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="39dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Ad3"
+        app:srcCompat="@drawable/adven" />
+
+    <ImageView
+        android:id="@+id/Ad6"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="31dp"
+        app:layout_constraintStart_toEndOf="@+id/Ad5"
+        app:layout_constraintTop_toBottomOf="@+id/Ad4"
+        app:srcCompat="@drawable/advent" />
+
+    <ImageView
+        android:id="@+id/Ad4"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="37dp"
+        app:layout_constraintStart_toEndOf="@+id/Ad3"
+        app:layout_constraintTop_toBottomOf="@+id/Ad2"
+        app:srcCompat="@drawable/adve" />
+
+    <ImageView
+        android:id="@+id/Ad1"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backad"
+        app:srcCompat="@drawable/screen_shot_2563_06_15_at_4_02_33_pm" />
+
+    <ImageView
+        android:id="@+id/Ad2"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="48dp"
+        android:layout_marginTop="51dp"
+        app:layout_constraintStart_toEndOf="@+id/Ad1"
+        app:layout_constraintTop_toBottomOf="@+id/Adtext"
+        app:srcCompat="@drawable/ad" />
+
+    <ImageButton
+        android:id="@+id/backad"
+        android:layout_width="158dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#090909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

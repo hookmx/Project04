@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.project01">
+
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+
+    <uses-feature android:name="android.hardware.type.watch" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Project01">
+        <activity android:name=".btnfunny"></activity>
+        <activity android:name=".Main" />
+        <activity android:name=".fantasy66" />
+        <activity android:name=".fantasy55" />
+        <activity android:name=".fantasy44" />
+        <activity android:name=".fantasy33" />
+        <activity android:name=".fantasy22" />
+        <activity android:name=".fantasy11" />
+        <activity android:name=".adventure66" />
+        <activity android:name=".adventure55" />
+        <activity android:name=".adventure44" />
+        <activity android:name=".adventure33" />
+        <activity android:name=".adventure22" />
+        <activity android:name=".adventure11" />
+        <activity android:name=".action66" />
+        <activity android:name=".action55" />
+        <activity android:name=".action44" />
+        <activity android:name=".action33" />
+        <activity android:name=".action22" />
+        <activity android:name=".action11" />
+        <activity android:name=".Funny6" />
+        <activity android:name=".Funny5" />
+        <activity android:name=".Funny4" />
+        <activity android:name=".Funny3" />
+        <activity android:name=".Funny2" />
+        <activity android:name=".Funny1" />
+        <activity android:name=".funny1" />
+        <activity android:name=".Mysterious6" />
+        <activity android:name=".btnmysterious" />
+        <activity android:name=".Drama6" />
+        <activity android:name=".Drama5" />
+        <activity android:name=".Drama4" />
+        <activity android:name=".Drama3" />
+        <activity android:name=".Drama2" />
+        <activity android:name=".Drama1" />
+        <activity android:name=".btndrama" />
+        <activity android:name=".Action6" />
+        <activity android:name=".Action5" />
+        <activity android:name=".Action4" />
+        <activity android:name=".Action3" />
+        <activity android:name=".Action2" />
+        <activity android:name=".Action1" />
+        <activity android:name=".btnaction" />
+        <activity android:name=".Thriller6" />
+        <activity android:name=".Thriller5" />
+        <activity android:name=".Thriller4" />
+        <activity android:name=".Thriller3" />
+        <activity android:name=".Thriller2" />
+        <activity
+            android:name=".Thriller1"
+            android:label="@string/title_activity_thriller1">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <uses-library
+            android:name="com.google.android.wearable"
+            android:required="true" />
+        <!--
+               Set to true if your app is Standalone, that is, it does not require the handheld
+               app to run.
+        -->
+        <meta-data
+            android:name="com.google.android.wearable.standalone"
+            android:value="true" />
+
+        <activity android:name=".btnthriller" />
+        <activity android:name=".Romance6" />
+        <activity android:name=".Romance5" />
+        <activity android:name=".Romance4" />
+        <activity android:name=".Romance3" />
+        <activity android:name=".Romance2" />
+        <activity android:name=".Romance1" />
+        <activity android:name=".btnromance" />
+        <activity android:name=".MainActivity6" />
+        <activity android:name=".Mysterious5" />
+        <activity android:name=".Mysterious4" />
+        <activity android:name=".Mysterious3" />
+        <activity android:name=".Mysterious2" />
+        <activity android:name=".Mysterious1" />
+        <activity android:name=".Mysterious" />
+        <activity android:name=".Fantasy6" />
+        <activity android:name=".Fantasy5" />
+        <activity android:name=".Fantasy4" />
+        <activity android:name=".Fantasy3" />
+        <activity android:name=".Fantasy2" />
+        <activity android:name=".Fantasy1" />
+        <activity android:name=".btnfantasy" />
+        <activity android:name=".Adventure6" />
+        <activity android:name=".Adventure5" />
+        <activity android:name=".Adventure4" />
+        <activity android:name=".Adventure3" />
+        <activity android:name=".Adventure2" />
+        <activity android:name=".Adventure1" />
+        <activity android:name=".btnadventure" />
+        <activity android:name=".Search" />
+        <activity android:name=".FictionCate" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

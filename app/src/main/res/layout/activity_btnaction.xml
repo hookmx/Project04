@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnaction"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    tools:context=".btnaction">
+
+    <ImageView
+        android:id="@+id/ac3"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ac1"
+        app:srcCompat="@drawable/acti" />
+
+    <ImageView
+        android:id="@+id/ac4"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toEndOf="@+id/ac3"
+        app:layout_constraintTop_toBottomOf="@+id/ac2"
+        app:srcCompat="@drawable/actio" />
+
+    <ImageView
+        android:id="@+id/ac5"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ac3"
+        app:srcCompat="@drawable/action" />
+
+    <ImageView
+        android:id="@+id/ac6"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toEndOf="@+id/ac5"
+        app:layout_constraintTop_toBottomOf="@+id/ac4"
+        app:srcCompat="@drawable/thrill" />
+
+    <ImageView
+        android:id="@+id/ac2"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="51dp"
+        app:layout_constraintStart_toEndOf="@+id/ac1"
+        app:layout_constraintTop_toBottomOf="@+id/actext"
+        app:srcCompat="@drawable/act" />
+
+    <ImageView
+        android:id="@+id/ac1"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backac"
+        app:srcCompat="@drawable/ac" />
+
+    <TextView
+        android:id="@+id/actext"
+        android:layout_width="174dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:text="    Action"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/backac"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backac"
+        android:layout_width="158dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#090909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/FictionCate"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    tools:context=".FictionCate">
+
+    <Button
+        android:id="@+id/mysterious"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#090909"
+        android:text="mysterious"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Adventure" />
+
+    <Button
+        android:id="@+id/Thriller"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#090909"
+        android:text="Thriller"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mysterious" />
+
+    <Button
+        android:id="@+id/Drama"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#090909"
+        android:text="Drama"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Thriller" />
+
+    <Button
+        android:id="@+id/Funny"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="224dp"
+        android:layout_marginTop="25dp"
+        android:backgroundTint="#090909"
+        android:text="Funny"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Action" />
+
+    <Button
+        android:id="@+id/Fantasy"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="110dp"
+        android:backgroundTint="#090909"
+        android:text="Fantasy"
+        app:layout_constraintStart_toEndOf="@+id/Adventure"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/Romance"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#090909"
+        android:text="Romance"
+        app:layout_constraintStart_toEndOf="@+id/mysterious"
+        app:layout_constraintTop_toBottomOf="@+id/Fantasy" />
+
+    <Button
+        android:id="@+id/Action"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="35dp"
+        android:layout_marginTop="28dp"
+        android:backgroundTint="#090909"
+        android:text="Action"
+        app:layout_constraintStart_toEndOf="@+id/Thriller"
+        app:layout_constraintTop_toBottomOf="@+id/Romance" />
+
+    <ImageButton
+        android:id="@+id/backad"
+        android:layout_width="158dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:backgroundTint="#090909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <Button
+        android:id="@+id/Adventure"
+        android:layout_width="170dp"
+        android:layout_height="107dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="#090909"
+        android:text="Adventure"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backad" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="401dp"
+        android:layout_height="88dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="27dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Drama"
+        app:srcCompat="@drawable/giphy" />
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btndrama"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    tools:context=".btndrama">
+
+    <ImageView
+        android:id="@+id/dra1"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backdra"
+        app:srcCompat="@drawable/d" />
+
+    <ImageView
+        android:id="@+id/dra2"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="51dp"
+        app:layout_constraintStart_toEndOf="@+id/dra1"
+        app:layout_constraintTop_toBottomOf="@+id/dratext"
+        app:srcCompat="@drawable/dr" />
+
+    <ImageView
+        android:id="@+id/dra3"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dra1"
+        app:srcCompat="@drawable/dra" />
+
+    <ImageView
+        android:id="@+id/dra4"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="56dp"
+        app:layout_constraintStart_toEndOf="@+id/dra3"
+        app:layout_constraintTop_toBottomOf="@+id/dra2"
+        app:srcCompat="@drawable/dram" />
+
+    <ImageView
+        android:id="@+id/dra5"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/dra3"
+        app:srcCompat="@drawable/drama" />
+
+    <ImageView
+        android:id="@+id/dra6"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="46dp"
+        app:layout_constraintStart_toEndOf="@+id/dra5"
+        app:layout_constraintTop_toBottomOf="@+id/dra4"
+        app:srcCompat="@drawable/dramas" />
+
+    <TextView
+        android:id="@+id/dratext"
+        android:layout_width="174dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:text="    Drama"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/backdra"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backdra"
+        android:layout_width="158dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#090909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+</androidx.constraintlayout.widget.ConstraintLayout>

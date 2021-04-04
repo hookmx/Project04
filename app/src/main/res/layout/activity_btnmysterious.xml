@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/btnmysterious"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    tools:context=".Mysterious">
+
+    <ImageView
+        android:id="@+id/mys1"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backmys"
+        app:srcCompat="@drawable/my" />
+
+    <ImageView
+        android:id="@+id/mys2"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="51dp"
+        app:layout_constraintStart_toEndOf="@+id/mys1"
+        app:layout_constraintTop_toBottomOf="@+id/mystext"
+        app:srcCompat="@drawable/mys" />
+
+    <ImageView
+        android:id="@+id/mys3"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mys1"
+        app:srcCompat="@drawable/myst" />
+
+    <ImageView
+        android:id="@+id/mys5"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="51dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/mys3"
+        app:srcCompat="@drawable/myster" />
+
+    <ImageView
+        android:id="@+id/mys4"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toEndOf="@+id/mys3"
+        app:layout_constraintTop_toBottomOf="@+id/mys2"
+        app:srcCompat="@drawable/myste" />
+
+    <ImageView
+        android:id="@+id/mys6"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="51dp"
+        app:layout_constraintStart_toEndOf="@+id/mys5"
+        app:layout_constraintTop_toBottomOf="@+id/mys4"
+        app:srcCompat="@drawable/mysteri" />
+
+    <TextView
+        android:id="@+id/mystext"
+        android:layout_width="174dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:text="  Mysterious"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/backmys"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/backmys"
+        android:layout_width="158dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#090909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+</androidx.constraintlayout.widget.ConstraintLayout>

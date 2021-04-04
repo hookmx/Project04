@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#090909"
+    tools:context=".btnfunny">
+
+    <ImageView
+        android:id="@+id/fun1"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/backfun"
+        app:srcCompat="@drawable/f1" />
+
+    <ImageView
+        android:id="@+id/fun2"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="51dp"
+        app:layout_constraintStart_toEndOf="@+id/fun1"
+        app:layout_constraintTop_toBottomOf="@+id/funtext"
+        app:srcCompat="@drawable/fu" />
+
+    <ImageView
+        android:id="@+id/fun3"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fun1"
+        app:srcCompat="@drawable/fun" />
+
+    <ImageView
+        android:id="@+id/fun4"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="52dp"
+        app:layout_constraintStart_toEndOf="@+id/fun3"
+        app:layout_constraintTop_toBottomOf="@+id/fun2"
+        app:srcCompat="@drawable/funn" />
+
+    <ImageView
+        android:id="@+id/fun5"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginTop="51dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/fun3"
+        app:srcCompat="@drawable/funny" />
+
+    <ImageView
+        android:id="@+id/fun6"
+        android:layout_width="147dp"
+        android:layout_height="150dp"
+        android:layout_marginStart="40dp"
+        android:layout_marginTop="51dp"
+        app:layout_constraintStart_toEndOf="@+id/fun5"
+        app:layout_constraintTop_toBottomOf="@+id/fun4"
+        app:srcCompat="@drawable/funnys" />
+
+    <ImageButton
+        android:id="@+id/backfun"
+        android:layout_width="158dp"
+        android:layout_height="63dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:backgroundTint="#090909"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/abc_vector_test" />
+
+    <TextView
+        android:id="@+id/funtext"
+        android:layout_width="174dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="45dp"
+        android:layout_marginTop="16dp"
+        android:text="  Funny"
+        android:textColor="#FFFFFF"
+        android:textSize="30sp"
+        app:layout_constraintStart_toEndOf="@+id/backfun"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
